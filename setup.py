@@ -34,6 +34,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
+        'marshmallow==3.0.0b8'
     ],
     extras_require={
         "dev": [
