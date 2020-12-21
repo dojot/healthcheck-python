@@ -12,13 +12,13 @@ with io.open('README.md', 'rt', encoding='utf8') as f:
 
 setup(
     name='dojot.module.healthcheck',
-    version='0.0.1a1',
+    version='0.1.0',
     url='http://github.com/dojot/healthcheck-python',
     project_urls=OrderedDict((
         ('Code', 'https://github.com/dojot/healthcheck-python.git'),
         ('Issue tracker', 'https://github.com/dojot/healthcheck-python/issues'),
     )),
-    license='GPL-3.0',
+    license='Apache-2.0',
     author='Giovanni Curiel dos Santos',
     author_email='giovannicuriel@gmail.com',
     maintainer='dojot team',
@@ -30,7 +30,7 @@ setup(
     platforms=[any],
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
     ],
     install_requires=[
